@@ -14,3 +14,4 @@ class School
     @student_name = name
     @grade = grade
     if @roster.include? == false
+      @roster_grade =
