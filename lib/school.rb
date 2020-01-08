@@ -13,4 +13,4 @@ class School
   def add_name(name,grade)
     @student_name = name
     @grade = grade
-    if 
+    if @roster.include
