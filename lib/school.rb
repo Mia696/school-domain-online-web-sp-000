@@ -10,7 +10,7 @@ class School
     @roster
   end
   
-  def add_student(name,grade)
+  def add_student(name, grade)
     @student_name = name
     @grade = grade
     if @roster.include?(grade) == false
@@ -26,4 +26,5 @@ class School
         @roster[grade] = name.sort
       end
     end
+  end
   
